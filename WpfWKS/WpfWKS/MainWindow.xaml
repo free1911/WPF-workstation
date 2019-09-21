@@ -5,8 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfWKS"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Width="250" Height="250">
+    <!--<Border Margin="5" Padding="5" Background="LightYellow" 
+            BorderBrush="SteelBlue" BorderThickness="3,5,3,5"
+            CornerRadius="3">
+    <StackPanel Orientation="Vertical" Margin="3">
+        <Label HorizontalAlignment="Center">A Button Stack</Label>
+        <Button Content="Button 1" Margin="3" 
+                MaxWidth="200" MinWidth="100"/>
+        <Button Content="Button 2" Margin="3" 
+                MaxWidth="200" MinWidth="100"/>
+        <Button Content="Button 3" Margin="3"
+                MaxWidth="200" MinWidth="100"/>
+        <Button Content="Button 4" Margin="3"
+                MaxWidth="200" MinWidth="100"/>
+
+    </StackPanel>
+    </Border>-->
+    <!--<WrapPanel Margin="3">
+        <Button VerticalAlignment="Top">Top Button</Button>
+        <Button MinHeight="60">Tall Button</Button>
+        <Button VerticalAlignment="Bottom">Bottom Button</Button>
+        <Button VerticalAlignment="Stretch" >Stretch Button</Button>
         
+    </WrapPanel>-->
+    <Grid ShowGridLines="False" UseLayoutRounding="True">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="100"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition MinWidth="50"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Name="grid2" Grid.Row="0" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Padding="3" Grid.Row="2" Margin="3">Button 3</Button>
+            <Button Padding="3" Grid.Row="0" Margin="3">Button 2</Button>
+            <GridSplitter Grid.Row="1" Grid.ColumnSpan="2" Height="3"
+                      VerticalAlignment="Center" HorizontalAlignment="Stretch"
+                      ShowsPreview="False"/>
+        </Grid>
+        <Button Padding="3" Grid.Column="0" Grid.Row="0" Margin="3">Button 1</Button>
+        <Button Padding="3" Grid.Column="0" Grid.Row="1" Margin="3">Button 4</Button>
+        <GridSplitter Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" Width="3"
+                      VerticalAlignment="Stretch" HorizontalAlignment="Center"
+                      ShowsPreview="False"/>
     </Grid>
 </Window>

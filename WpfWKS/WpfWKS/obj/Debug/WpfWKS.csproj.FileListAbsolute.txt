@@ -1,0 +1,14 @@
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\WpfWKS.csprojAssemblyReference.cache
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\App.g.cs
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\WpfWKS_MarkupCompile.cache
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\bin\Debug\WpfWKS.exe
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\bin\Debug\WpfWKS.pdb
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\MainWindow.g.cs
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\WpfWKS_MarkupCompile.lref
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\MainWindow.baml
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\WpfWKS.g.resources
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\WpfWKS.Properties.Resources.resources
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\WpfWKS.csproj.GenerateResource.cache
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\WpfWKS.csproj.CoreCompileInputs.cache
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\WpfWKS.exe
+D:\程序开发\Proj_cs\wpf workstation\WPF workstation\WpfWKS\WpfWKS\obj\Debug\WpfWKS.pdb
